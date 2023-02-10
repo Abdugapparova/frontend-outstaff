@@ -1,0 +1,28 @@
+.logo{
+box-sizing: border-box;
+position: absolute;
+width: 200px;
+height: 143px;
+left: 40px;
+top: 16px;
+/* background: url(logo.png); */
+border: 1px solid #000000;
+}
+
+.header{
+    align-self: right;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.col{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-left: 30px;
+    color: white;
+    text-decoration: inherit;
+    /* text-transform: uppercase; */
+    outline: none;
+}
